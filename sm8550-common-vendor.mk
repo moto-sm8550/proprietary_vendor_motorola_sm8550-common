@@ -1516,3 +1516,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@2.0-service \
     vendor.qti.hardware.wifidisplaysession-service \
     motorola.hardware.tcmd@1.0-service
+
+PRODUCT_PACKAGES += \
+    libEGL_adreno_libEGL_adreno_symlink32 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink32 \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink64
