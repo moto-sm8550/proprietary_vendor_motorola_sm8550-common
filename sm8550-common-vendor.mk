@@ -834,6 +834,8 @@ PRODUCT_PACKAGES += \
     qtiril-utils \
     qtiwakelock \
     se_nq_extn_client \
+    sensors.moto \
+    sensors.ssc \
     libasphere \
     libaudiopreprocessing \
     libbc360 \
