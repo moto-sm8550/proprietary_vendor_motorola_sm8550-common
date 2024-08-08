@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/modemManager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modemManager.rc \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/motorola.hardware.sensorext.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.sensorext.service.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -838,6 +839,8 @@ PRODUCT_PACKAGES += \
     libxtadapter \
     ls_nq_client \
     motorola.hardware.audio.radar@1.0 \
+    motorola.hardware.camera.desktop@1.0 \
+    motorola.hardware.camera.desktop@2.0 \
     motorola.hardware.sensors-V1-ndk_platform \
     qcrilInterfaces \
     qcrilMarshal \
@@ -1283,6 +1286,7 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-strongbox-service-qti \
     android.hardware.security.keymint-service-qti \
     dolbycodec2 \
+    motorola.hardware.camera.desktop@2.0-service \
     motorola.hardware.sensorext-service \
     qconfigservice \
     qcrilNrd \
