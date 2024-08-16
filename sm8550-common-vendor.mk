@@ -306,7 +306,7 @@ PRODUCT_PACKAGES += \
     c2.dolby.decoder \
     c2.dolby.egl \
     c2.dolby.store \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0-vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
