@@ -2321,32 +2321,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libDspIOProxy_stub",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libDspIOProxy_stub.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcdsprpc",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libDxHdcp",
     owner: "motorola",
     strip: {
@@ -2557,30 +2531,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libMapService",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libMapService.so",
-            ],
-            shared_libs: [
-                "libcdsprpc",
-                "libdl",
-                "liblog",
-                "libc",
             ],
         },
     },
@@ -3362,30 +3312,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libScenescape",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libScenescape.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "liblog",
-                "libm",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libSensorsInterface",
     owner: "motorola",
     strip: {
@@ -3408,29 +3334,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libStereoRectifyWrapper",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libStereoRectifyWrapper.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libdl",
-                "libc",
             ],
         },
     },
@@ -6494,29 +6397,6 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libhalide_hexagon_host",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhalide_hexagon_host.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc",
                 "libdl",
             ],
         },
@@ -12151,184 +12031,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqvr_cam_cdsp_driver_stub",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqvr_cam_cdsp_driver_stub.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcdsprpc",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqvr_cdsp_driver_stub",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqvr_cdsp_driver_stub.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcdsprpc",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqvr_eyetracking_plugin",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqvr_eyetracking_plugin.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqvrcamera_client.qti",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqvrcamera_client.qti.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libnativewindow",
-                "libui",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqvrservice",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqvrservice.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libnativewindow",
-                "libjsoncpp",
-                "android.hardware.graphics.mapper@4.0",
-                "android.hardware.graphics.allocator@4.0",
-                "libhidlbase",
-                "libhardware",
-                "libbase",
-                "libbinder_ndk",
-                "vendor.qti.hardware.qxr-V1-ndk",
-                "libdrm",
-                "libui",
-                "android.hardware.thermal@1.0",
-                "android.hardware.thermal@2.0",
-                "libusbhost",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqvrservice_client.qti",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqvrservice_client.qti.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libdrm",
-                "libutils",
-                "libnativewindow",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "librcc",
     owner: "motorola",
     strip: {
@@ -12918,33 +12620,6 @@ cc_prebuilt_library_shared {
                 "libdmabufheap",
                 "libvmmem",
                 "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsensor_calibration",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsensor_calibration.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
                 "libm",
                 "libdl",
             ],
@@ -13820,46 +13495,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsxrservice",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsxrservice.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libui",
-                "liblog",
-                "libutils",
-                "libEGL",
-                "libGLESv2",
-                "libusbhost",
-                "libnativewindow",
-                "libhidlbase",
-                "libhidltransport",
-                "libfmq",
-                "android.hardware.audio@7.0",
-                "android.hardware.audio.common@7.0",
-                "android.hardware.audio.common@7.0-enums",
-                "libtinyalsa",
-                "qti.video.utils.videobufferlayout",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsynergy_loc_api",
     owner: "motorola",
     strip: {
@@ -14237,28 +13872,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libtracker_6dof_impl",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libtracker_6dof_impl.so",
-            ],
-            shared_libs: [
-                "libcdsprpc",
-                "libc",
             ],
         },
     },
@@ -19326,32 +18939,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.qxr-V1-ndk",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.qxr-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -25052,15 +24639,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "vendor.qti.hardware.qxr-service.xml",
-    owner: "motorola",
-    src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qxr-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "vendor.qti.hardware.radio.am.xml",
     owner: "motorola",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.am.xml",
@@ -26072,72 +25650,6 @@ cc_prebuilt_binary {
                 "libavservices_minijail",
                 "qcrild_libqcrilnr",
                 "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "qvrservice",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/qvrservice",
-            ],
-            shared_libs: [
-                "libqvrservice",
-                "liblog",
-                "libnativewindow",
-                "android.hardware.graphics.allocator@4.0",
-                "libavservices_minijail",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "sxrservice",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/sxrservice",
-            ],
-            shared_libs: [
-                "vendor.qti.hardware.qxr-V1-ndk",
-                "libbinder_ndk",
-                "libbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libbinder",
-                "libhardware",
-                "libnativewindow",
-                "libavservices_minijail",
                 "libc++",
                 "libc",
                 "libm",
@@ -27965,60 +27477,6 @@ sh_binary {
     owner: "motorola",
     src: "proprietary/vendor/bin/qtisetprop",
     filename: "qtisetprop",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "qvrcameratest",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/qvrcameratest",
-            ],
-            shared_libs: [
-                "libnativewindow",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "qvrdatalogger",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/qvrdatalogger",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libui",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
     soc_specific: true,
 }
 

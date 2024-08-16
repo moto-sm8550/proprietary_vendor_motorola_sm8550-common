@@ -129,11 +129,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/qms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qms.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/init/qvrd_vndr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qvrd_vndr.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/init/sxrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sxrd.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
@@ -268,12 +266,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/other/6_version_change_property_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/6_version_change_property_table_qcrilnr.sql \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua.txt \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua_6dof_config.xml \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua_qvr_3dof_tracker_config.txt \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
@@ -288,9 +280,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/qsap_voiceui.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_voiceui.policy \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/sxr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sxr@2.0.policy \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
@@ -402,7 +392,6 @@ PRODUCT_PACKAGES += \
     libDcfHalFramework \
     libDcfHalLogger \
     libDcfHalQtiMutex \
-    libDspIOProxy_stub \
     libDxHdcp \
     libEvrcSwCodec \
     libFileMux_proprietary \
@@ -411,7 +400,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libMapService \
     libOpenCL \
     libPeripheralStateUtils \
     libQSEEComAPI \
@@ -443,9 +431,7 @@ PRODUCT_PACKAGES += \
     libQnnSaver \
     libQnnSystem \
     libQtiRilLoadable \
-    libScenescape \
     libSensorsInterface \
-    libStereoRectifyWrapper \
     libTrustedUI \
     libTrustedUITZ \
     libTrustedUIVM \
@@ -549,7 +535,6 @@ PRODUCT_PACKAGES += \
     libgpt \
     libgpudataproducer \
     libgsl \
-    libhalide_hexagon_host \
     libhdr_backlight_adapter \
     libhdr_stub \
     libhdr_tm \
@@ -732,12 +717,6 @@ PRODUCT_PACKAGES += \
     libqtiidentitycredential \
     libqtikeymaster4 \
     libqtikeymint \
-    libqvr_cam_cdsp_driver_stub \
-    libqvr_cdsp_driver_stub \
-    libqvr_eyetracking_plugin \
-    libqvrcamera_client.qti \
-    libqvrservice \
-    libqvrservice_client.qti \
     librcc \
     librcmask \
     libril-db \
@@ -759,7 +738,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
-    libsensor_calibration \
     libsensorcal \
     libsensorslog \
     libshsc \
@@ -790,7 +768,6 @@ PRODUCT_PACKAGES += \
     libstandbyfeature \
     libstreamparser \
     libsubsystem_control \
-    libsxrservice \
     libsynergy_loc_api \
     libsys_info_cache \
     libsystem_health_mon \
@@ -805,7 +782,6 @@ PRODUCT_PACKAGES += \
     libtlpd_crypto \
     libtlpd_internal \
     libtlpd_logger \
-    libtracker_6dof_impl \
     libtrustedapploader \
     libvideooptfeature \
     libvideotxr \
@@ -970,7 +946,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.qxr-V1-ndk \
     vendor.qti.hardware.radio.am-V1-ndk \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd-V1-ndk \
@@ -1263,7 +1238,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf.xml \
     vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qconfig@1.0-service.xml \
-    vendor.qti.hardware.qxr-service.xml \
     vendor.qti.hardware.radio.am.xml \
     vendor.qti.hardware.radio.ims.xml \
     vendor.qti.hardware.radio.qtiradioconfig.xml \
@@ -1299,8 +1273,6 @@ PRODUCT_PACKAGES += \
     motorola.hardware.sensorext-service \
     qconfigservice \
     qcrilNrd \
-    qvrservice \
-    sxrservice \
     vendor.display.color@1.0-service \
     vendor.dolby.hardware.dms@2.0-service \
     vendor.dolby.media.c2@1.0-service \
@@ -1359,8 +1331,6 @@ PRODUCT_PACKAGES += \
     qti \
     qtigetprop \
     qtisetprop \
-    qvrcameratest \
-    qvrdatalogger \
     qwesd \
     rmt_storage \
     sec_nvm \
