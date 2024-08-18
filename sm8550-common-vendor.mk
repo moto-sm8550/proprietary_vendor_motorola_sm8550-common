@@ -342,7 +342,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-impl-qti \
     audio.primary.kalama \
     audio_radar.primary.default \
-    com.dsi.ant@1.0-impl \
     motorola.hardware.audio.radar@1.0-impl \
     sound_trigger.primary.kalama \
     vendor.qti.esepowermanager@1.1-impl \
@@ -1093,7 +1092,6 @@ PRODUCT_PACKAGES += \
     libvpp_vqa_networks \
     libvpt_action_recognition \
     libworker_pool \
-    com.qualcomm.qti.ant@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
