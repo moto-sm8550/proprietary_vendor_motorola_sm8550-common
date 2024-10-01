@@ -66,4 +66,4 @@ getpid: 1
 sigaltstack: 1
 setpriority: 1
 getdents64: 1
-dup: 1
+dup: 1gettid: 1
