@@ -1158,6 +1158,7 @@ PRODUCT_PACKAGES += \
     libqcc_file_agent_sys \
     libqspmsvc \
     libwfdnative \
+    vendor.qti.hardware.dpmaidlservice-V1-ndk \
     vendor.qti.hardware.dpmservice@1.0 \
     vendor.qti.hardware.dpmservice@1.1 \
     vendor.qti.hardware.qccsyshal@1.0 \
