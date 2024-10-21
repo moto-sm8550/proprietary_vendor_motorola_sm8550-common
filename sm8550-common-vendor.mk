@@ -848,7 +848,6 @@ PRODUCT_PACKAGES += \
     libdownmix \
     libdynproc \
     libeffectproxy \
-    libhapticgenerator \
     libldnhncr \
     libmsstwrapper \
     libqcompostprocbundle \
