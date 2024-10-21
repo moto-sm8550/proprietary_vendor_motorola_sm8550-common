@@ -17,9 +17,6 @@
         <interface>
             <name>IComponentStore</name>
             #<instance>dolby</instance>   // for version 1.0
-	    #<fqname>@1.0::IComponentStore/default1</fqname>  // for dolby audio codecs
-	    #<fqname>@1.0::IComponentStore/default2</fqname>  // for qcom audio hw codecs
-	    #<fqname>@1.0::IComponentStore/default3</fqname>  // for dolby vision codecs
 	...
 -->
 <manifest version="1.0" type="device">
@@ -32,7 +29,6 @@
             <instance>default</instance>
             <instance>software</instance>
         </interface>
-	<fqname>@1.0::IComponentStore/default3</fqname>
     </hal>
 </manifest>
 
