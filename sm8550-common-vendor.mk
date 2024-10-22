@@ -430,6 +430,7 @@ PRODUCT_PACKAGES += \
     libaodoptfeature \
     libapengine \
     libappclassifier \
+    libar-acdb \
     libar-gpr \
     libar-gsl \
     libar-pal \
