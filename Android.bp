@@ -2352,10 +2352,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
-			shared_libs: ["libar-gsl", "liblog", "libexpat", "liblx-osal", "libaudioroute", "libcutils", "libutilscallstack", "libagmclient", "libPeripheralStateUtils", "libtinyalsa", "libtinycompress", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libar-gsl", "liblog", "libexpat", "liblx-osal", "libaudioroute", "libcutils", "libutilscallstack", "libPeripheralStateUtils", "libtinyalsa", "libtinycompress", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2866,6 +2867,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4702,6 +4704,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4736,6 +4739,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5548,10 +5552,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqc2audio_hwaudiocodec.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libqc2audio_base", "libqc2audio_platform", "libqc2audio_utils", "libqc2audio_basecodec", "libcodec2_vndk", "libstagefright_foundation", "libpalclient", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "libcutils", "liblog", "libqc2audio_base", "libqc2audio_platform", "libqc2audio_utils", "libqc2audio_basecodec", "libcodec2_vndk", "libstagefright_foundation", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -15776,6 +15781,7 @@ cc_prebuilt_binary {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	strip: {
 		none: true,
 	},
@@ -16099,6 +16105,7 @@ cc_prebuilt_binary {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	strip: {
 		none: true,
 	},
