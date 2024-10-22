@@ -144,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.qsap.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.sensors.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.qti.audio-adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.audio-adsprpc-service.rc \
-    vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.qti.diag_userdebug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag_userdebug.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
@@ -1223,9 +1222,6 @@ PRODUCT_PACKAGES += \
     vendor.dolby.hardware.dms.xml \
     vendor.dolby.media.c2.v1.0@1.0-service.xml \
     vendor.dolby.vision.media.c2@1.0-service.xml \
-    vendor.qti.camera.aon-impl-1.3.xml \
-    vendor.qti.camera.postproc-impl.xml \
-    vendor.qti.camera.provider.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.perf.xml \
@@ -1271,7 +1267,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.dolby.hardware.dms@2.0-service \
     vendor.dolby.media.c2@1.0-service \
-    vendor.qti.camera.provider-service_64 \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
