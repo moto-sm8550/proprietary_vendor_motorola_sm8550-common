@@ -888,7 +888,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory@2.7 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
-    vendor.qti.diaghal@1.0 \
+    vendor.qti.diaghal@1.0-vendor \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V4-ndk \
@@ -921,8 +921,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.dpmservice@1.0 \
-    vendor.qti.hardware.dpmservice@1.1 \
+    vendor.qti.hardware.dpmservice@1.0-vendor \
+    vendor.qti.hardware.dpmservice@1.1-vendor \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.embmssl@1.0 \
     vendor.qti.hardware.embmssl@1.1 \
@@ -932,9 +932,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.hardware.power.powermodule@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.1 \
-    vendor.qti.hardware.qccsyshal@1.2 \
+    vendor.qti.hardware.qccsyshal@1.0-vendor \
+    vendor.qti.hardware.qccsyshal@1.1-vendor \
+    vendor.qti.hardware.qccsyshal@1.2-vendor \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.qconfig@1.0 \
@@ -992,7 +992,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.vpp@2.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0-vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
@@ -1014,9 +1014,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce@1.0 \
     vendor.qti.ims.rcsuce@1.1 \
     vendor.qti.ims.rcsuce@1.2 \
-    -vendor \
+    vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.imsrtpservice@3.1-service-Impl \
-    -vendor \
+    vendor.qti.imsrtpservice@3.1-vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.latency@2.2 \
@@ -1029,7 +1029,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdhal@1.3 \
     vendor.qti.qesdsys-V3-ndk \
     vendor.qti.qspmhal@1.0-impl \
-    vendor.qti.qspmhal@1.0 \
+    vendor.qti.qspmhal@1.0-vendor \
     vendor.qti.spu@1.0 \
     vendor.qti.spu@1.1 \
     vendor.qti.spu@2.0 \
