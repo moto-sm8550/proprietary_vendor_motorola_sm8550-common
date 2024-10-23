@@ -532,7 +532,6 @@ PRODUCT_PACKAGES += \
     libjnihelper \
     libkcl \
     libkernelmanager \
-    libkeymaster_messages \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
