@@ -682,7 +682,6 @@ PRODUCT_PACKAGES += \
     libqnnengine \
     libqrtr \
     libqrtrclient \
-    libqsap_sdk \
     libqseed3 \
     libqsh_ble_pb \
     libqsocket \
