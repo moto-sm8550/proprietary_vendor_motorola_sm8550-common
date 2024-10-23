@@ -1276,10 +1276,8 @@ PRODUCT_PACKAGES += \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
-    init.qcom.sensors \
     init.qti.keymaster \
     init.qti.media \
-    init.qti.write \
     irsc_util \
     ks \
     loadalgo \
