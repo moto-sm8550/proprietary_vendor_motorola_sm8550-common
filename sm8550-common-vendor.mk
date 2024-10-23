@@ -846,9 +846,6 @@ PRODUCT_PACKAGES += \
     libeffectproxy \
     libldnhncr \
     libmsstwrapper \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libquasar \
     libreverbwrapper \
     libshoebox \
@@ -857,7 +854,6 @@ PRODUCT_PACKAGES += \
     libswgamedap \
     libswspatializer \
     libvisualizer \
-    libvolumelistener \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
