@@ -3536,23 +3536,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfmpal",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libfmpal.so"],
-			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libar-pal", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libgame_enhance",
 	owner: "motorola",
 	strip: {
@@ -3817,23 +3800,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhdrdynamicootf.so"],
 			shared_libs: ["liblog", "libsdm-color", "libtinyxml2_1", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libhfp_pal",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libhfp_pal.so"],
-			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libar-pal", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9380,60 +9346,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqcompostprocbundle",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so"],
-			shared_libs: ["libcutils", "liblog", "libar-pal", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libqcomvisualizer",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libqcomvisualizer.so"],
-			shared_libs: ["libcutils", "liblog", "libar-pal", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libqcomvoiceprocessing",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so"],
-			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libquasar",
 	owner: "motorola",
 	strip: {
@@ -9569,24 +9481,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libvisualizer.so"],
 			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libvolumelistener",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libvolumelistener.so"],
-			shared_libs: ["libcutils", "liblog", "libar-pal", "libaudioutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

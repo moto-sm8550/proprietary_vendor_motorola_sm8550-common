@@ -503,7 +503,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libfeutils \
     libflatbuffers-cpp_vendor \
-    libfmpal \
     libgame_enhance \
     libgamepoweroptfeature \
     libgdtap \
@@ -520,7 +519,6 @@ PRODUCT_PACKAGES += \
     libhdr_tm \
     libhdrdynamic \
     libhdrdynamicootf \
-    libhfp_pal \
     libhta_hexagon_runtime_qnn \
     libidl \
     libintervmipc \
@@ -846,9 +844,6 @@ PRODUCT_PACKAGES += \
     libeffectproxy \
     libldnhncr \
     libmsstwrapper \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libquasar \
     libreverbwrapper \
     libshoebox \
@@ -857,7 +852,6 @@ PRODUCT_PACKAGES += \
     libswgamedap \
     libswspatializer \
     libvisualizer \
-    libvolumelistener \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
