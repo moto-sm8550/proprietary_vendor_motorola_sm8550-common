@@ -467,9 +467,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libcodec2_soft_ac4dec \
-    libcodec2_soft_common \
-    libcodec2_soft_ddpdec \
     libcodec2_store_dolby \
     libconfigdb \
     libcpion \
