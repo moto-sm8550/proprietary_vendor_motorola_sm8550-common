@@ -15054,12 +15054,12 @@ cc_prebuilt_binary {
 	name: "dolbycodec2",
 	owner: "motorola",
 	target: {
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/dolbycodec2"],
-			shared_libs: ["libbase", "liblog", "libcodec2", "libcodec2_vndk", "libutils", "android.hardware.media.c2@1.0", "libcodec2_hidl@1.0", "libavservices_minijail", "libbinder", "libhidlbase", "c2.dolby.store", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "liblog", "libcodec2", "libcodec2_vndk", "libutils", "android.hardware.media.c2@1.0", "libcodec2_hidl@1.0", "libbinder", "libhidlbase", "c2.dolby.store", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "32",
+	compile_multilib: "64",
 	strip: {
 		none: true,
 	},
