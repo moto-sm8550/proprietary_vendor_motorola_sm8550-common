@@ -22753,6 +22753,9 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "vendor.qti.imsrtpservice@3.0",
                 "vendor.qti.imsrtpservice@3.1",
+                "libbinder",
+                "libbinder_ndk",
+                "vendor.qti.ImsRtpService-V1-ndk",
                 "libdiag_system",
                 "libcutils",
                 "libutils",
@@ -23861,6 +23864,32 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.qti.ImsRtpService-V1-ndk",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.common-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal@1.0",
     owner: "motorola",
     strip: {
@@ -24443,6 +24472,15 @@ dex_import {
 }
 
 dex_import {
+    name: "moto-telephony",
+    owner: "motorola",
+    jars: [
+        "proprietary/system_ext/framework/moto-telephony.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "qcrilhook",
     owner: "motorola",
     jars: [
@@ -24465,6 +24503,15 @@ dex_import {
     owner: "motorola",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.connectionaidlservice-V1-java",
+    owner: "motorola",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar",
     ],
     system_ext_specific: true,
 }
@@ -24497,6 +24544,15 @@ dex_import {
 }
 
 dex_import {
+    name: "vendor.qti.ims.factoryaidlservice-V1-java",
+    owner: "motorola",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.factoryaidlservice-V1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "vendor.qti.ims.rcssip-V1.0-java",
     owner: "motorola",
     jars: [
@@ -24524,6 +24580,15 @@ dex_import {
 }
 
 dex_import {
+    name: "vendor.qti.ims.rcssipaidlservice-V1-java",
+    owner: "motorola",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.rcssipaidlservice-V1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "vendor.qti.ims.rcsuce-V1.0-java",
     owner: "motorola",
     jars: [
@@ -24546,6 +24611,15 @@ dex_import {
     owner: "motorola",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.rcsuceaidlservice-V1-java",
+    owner: "motorola",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar",
     ],
     system_ext_specific: true,
 }
