@@ -300,6 +300,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
     vendor/motorola/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
     vendor/motorola/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu30_4v_16mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_16mb.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu30_4v_16mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_16mb_unsigned.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu30_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_unsigned.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v.mbn \
+    vendor/motorola/sm8550-common/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/motorola/sm8550-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/motorola/sm8550-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/motorola/sm8550-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
