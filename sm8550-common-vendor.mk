@@ -343,7 +343,6 @@ PRODUCT_PACKAGES += \
     audio.primary.kalama \
     audio_radar.primary.default \
     motorola.hardware.audio.radar@1.0-impl \
-    sound_trigger.primary.kalama \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
