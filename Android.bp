@@ -7054,6 +7054,27 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmpbase",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmpbase.so",
+            ],
+            shared_libs: [
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libnanopb",
     owner: "motorola",
     strip: {
@@ -19124,6 +19145,78 @@ prebuilt_rfsa {
 }
 
 cc_prebuilt_library_shared {
+    name: "libarcsoft-lib",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libarcsoft-lib.so",
+            ],
+            shared_libs: [
+                "libarcsoft_faceid",
+                "libmpbase",
+                "liblog",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_faceid",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libarcsoft_faceid.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoftbase",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libarcsoftbase.so",
+            ],
+            shared_libs: [
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0",
     owner: "motorola",
     strip: {
@@ -20960,6 +21053,18 @@ android_app_import {
     apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
     preprocessed: true,
     presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "MotoFaceUnlockArcSoft",
+    owner: "motorola",
+    apk: "proprietary/product/priv-app/MotoFaceUnlockArcSoft/MotoFaceUnlockArcSoft.apk",
+    certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
